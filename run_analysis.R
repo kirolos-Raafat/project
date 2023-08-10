@@ -8,7 +8,7 @@ library(stringr)
 
 #downloading the files [to datasets] and reading them.
 
-filurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileurl, destfile = "./project.zip")
 #the exdir argument is for setting a path if needed.
 unzip("./project.zip", exdir = "./")
